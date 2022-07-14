@@ -1,11 +1,17 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "fanlan-gatsby",
+  "description": "my personal website built with Gatsby, origin from bchiang7/v4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "fanlan1210 <me@fanlan.net>",
+  "contributors": [
+    {
+      "name": "Brittany Chiang",
+      "email": "brittany.chiang@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/fanlan1210/fanlan1210.github.io-gastby/"
   },
   "keywords": [
     "gatsby"

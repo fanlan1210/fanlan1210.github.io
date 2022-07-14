@@ -7,13 +7,18 @@ const variables = css`
     --light-navy: #112240;
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
+    --dark-green: #021c05;
+    --green: #0a2f0f;
+    --light-green: #114019;
+    --lightest-green: #23542b;
+    --green-shadow: rgba(2, 28, 5, 0.7);
     --dark-slate: #495670;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --turquoise: #63ffb4;
+    --turquoise-tint: rgba(100, 255, 180, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;
 

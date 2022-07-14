@@ -1,22 +1,30 @@
 import React from 'react';
 
 const IconLogo = () => (
-  <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
-    <title>Logo</title>
-    <g transform="translate(-8.000000, -2.000000)">
-      <g transform="translate(11.000000, 5.000000)">
-        <path
-          d="M45.691667,45.15 C48.591667,46.1 50.691667,48.95 50.691667,52.2 C50.691667,57.95 46.691667,61 40.291667,61 L28.541667,61 L28.541667,30.3 L39.291667,30.3 C45.691667,30.3 49.691667,33.15 49.691667,38.65 C49.691667,41.95 47.941667,44.35 45.691667,45.15 Z M33.591667,43.2 L39.241667,43.2 C42.791667,43.2 44.691667,41.85 44.691667,38.95 C44.691667,36.05 42.791667,34.8 39.241667,34.8 L33.591667,34.8 L33.591667,43.2 Z M33.591667,47.5 L33.591667,56.5 L40.191667,56.5 C43.691667,56.5 45.591667,54.75 45.591667,52 C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
-          fill="currentColor"
-        />
-        <polygon
-          id="Shape"
-          stroke="currentColor"
-          strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          points="39 0 0 22 0 67 39 90 78 68 78 23"
-        />
+  <svg version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg" role="img">
+    <g transform="translate(-72.113 -33.82)">
+      <g
+        transform="matrix(1.6137 0 0 1.6137 -27.432 -20.754)"
+        stroke="#008000"
+        strokeLinejoin="round"
+        strokeWidth="2">
+        <g stroke="#178411" strokeLinejoin="round" strokeWidth="2">
+          <g fill="none" stroke="#178411" strokeLinejoin="round" strokeWidth="2">
+            <path d="m104.55 36.419-29.842 14.189 30.288 15.94 27.616-15.899z" />
+            <path d="m132.62 50.648v48.623l-27.616 15.899" />
+            <path d="m74.712 50.608v48.623l30.288 15.94 1e-5 -48.623" />
+          </g>
+          <path d="m132.62 50.648-1e-5 48.623" fill="none" />
+          <g fill="#178411" strokeLinecap="round">
+            <circle cx="104.55" cy="36.419" r="1.5987" />
+            <circle cx="74.712" cy="50.608" r="1.5987" />
+            <circle cx="132.62" cy="50.648" r="1.5987" />
+            <circle cx="105" cy="66.548" r="1.5987" />
+            <circle cx="105" cy="115.17" r="1.5987" />
+            <circle cx="74.712" cy="99.231" r="1.5987" />
+            <circle cx="132.62" cy="99.272" r="1.5987" />
+          </g>
+        </g>
       </g>
     </g>
   </svg>

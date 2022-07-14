@@ -16,7 +16,7 @@ const StyledContactSection = styled.section`
   .overline {
     display: block;
     margin-bottom: 20px;
-    color: var(--green);
+    color: var(--turquoise);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
@@ -37,7 +37,13 @@ const StyledContactSection = styled.section`
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    margin: 30px 10px;
+    letter-spacing: 0.5em;
+  }
+
+  .button-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    margin: 30px 10px;
   }
 `;
 
@@ -55,17 +61,38 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">聯絡與更多</h2>
 
-      <h2 className="title">Get In Touch</h2>
+      <h2 className="title">到達底部</h2>
 
-      <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-      </p>
+      <p>如果上面的內容不足以滿足你的好奇心，或是有其他想知道的部分，歡迎來信給我！</p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        發信
+      </a>
+
+      <p>或是去造訪我的好朋友們的網站：</p>
+
+      <a
+        className="button-link"
+        href="https://qaz5823091.github.io"
+        target="_blank"
+        rel="noreferrer noopener">
+        羲加加
+      </a>
+      <a
+        className="button-link"
+        href="https://web.cc.ncu.edu.tw/~109502533/"
+        target="_blank"
+        rel="noreferrer noopener">
+        布丁
+      </a>
+      <a
+        className="button-link"
+        href="https://www.yaowei.tw"
+        target="_blank"
+        rel="noreferrer noopener">
+        方塊酥曜維
       </a>
     </StyledContactSection>
   );

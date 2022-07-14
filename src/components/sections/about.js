@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--turquoise);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--turquoise);
 
     &:hover,
     &:focus {
@@ -105,7 +105,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--turquoise);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -125,43 +125,30 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Linux', 'HTML & CSS', 'JavaScript', 'Node.js', 'Python', 'PHP'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">關於我</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              我是繁嵐，雖然熱愛資訊領域，但也喜歡關注各類社會議題，也就是說，偏好將自身資訊專業結合到生活中並且實際應用。
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              目前除了在大學就讀資訊工程之外，也參與了學校的開源社，協作了選課評價系統。另外也有參與資訊社群，先前在臺灣駭客年會擔任工作人員，而現在則以
+              SITCON 學生計算機年會為主。
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              在資訊技術方面，從 Linux 相關開始學起，後來則接觸較多 Web
+              開發的部分，有過共同開發供線上參與社群年會用的大型虛擬會場網站經驗。
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>以下是我最近使用到的技能：</p>
           </div>
 
           <ul className="skills-list">

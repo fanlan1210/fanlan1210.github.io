@@ -1,52 +1,56 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'contact@fanlan.net',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/fanlan1210',
     },
     {
+      name: 'GitLab',
+      url: 'https://gitlab.com/fanlan1210',
+    },
+    /*{
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/#',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/#',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/#',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+      url: 'https://codepen.io/#',
+    },*/
   ],
 
   navLinks: [
     {
-      name: 'About',
+      name: '關於我',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: '經歷',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: '專案',
       url: '/#projects',
     },
     {
-      name: 'Contact',
+      name: '聯絡與更多',
       url: '/#contact',
     },
   ],
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    turquoise: '#63ffb4',
+    green: '#0a2f0f',
+    darkGreen: '#021c05',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

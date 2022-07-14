@@ -14,7 +14,7 @@ const StyledLoader = styled.div`
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--dark-navy);
+  background-color: var(--dark-green);
   z-index: 99;
 
   .logo-wrapper {
@@ -29,7 +29,7 @@ const StyledLoader = styled.div`
       margin: 0 auto;
       fill: none;
       user-select: none;
-      #B {
+      #main {
         opacity: 0;
       }
     }
@@ -46,14 +46,12 @@ const Loader = ({ finishLoading }) => {
 
     loader
       .add({
-        targets: '#logo path',
-        delay: 300,
-        duration: 1500,
-        easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
+        targets: '#logo circle',
+        delay: anime.stagger(250, { easing: 'easeInOutQuart' }),
+        opacity: [0, 1],
       })
       .add({
-        targets: '#logo #B',
+        targets: '#logo #main',
         duration: 700,
         easing: 'easeInOutQuart',
         opacity: 1,
