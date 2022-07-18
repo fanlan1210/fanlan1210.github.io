@@ -147,7 +147,7 @@ const StyledSidebar = styled.aside`
     }
   }
 
-  .resume-link {
+  .action-button {
     ${({ theme }) => theme.mixins.bigButton};
     padding: 18px 50px;
     margin: 10% auto 0;
@@ -266,8 +266,12 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
-              Resume
+            <a
+              className="action-button"
+              href="https://blog.fanlan.net"
+              target="_blank"
+              rel="noopener noreferrer">
+              Blog
             </a>
           </nav>
         </StyledSidebar>

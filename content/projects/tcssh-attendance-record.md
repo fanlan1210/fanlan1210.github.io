@@ -2,7 +2,6 @@
 date: '2020-07-12'
 title: '台中二中學生出缺席紀錄速查'
 github: 'https://github.com/fanlan1210/tcssh-attendance-record'
-external: ''
 tech:
   - CURL
   - PHP

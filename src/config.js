@@ -10,6 +10,10 @@ module.exports = {
       name: 'GitLab',
       url: 'https://gitlab.com/fanlan1210',
     },
+    {
+      name: 'Card',
+      url: '/aboutme.html',
+    },
     /*{
       name: 'Instagram',
       url: 'https://www.instagram.com/#',

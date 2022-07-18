@@ -87,6 +87,9 @@ const Contact = () => {
         rel="noreferrer noopener">
         布丁
       </a>
+      <a className="button-link" href="https://ncchen.ga" target="_blank" rel="noreferrer noopener">
+        念誠
+      </a>
       <a
         className="button-link"
         href="https://www.yaowei.tw"
