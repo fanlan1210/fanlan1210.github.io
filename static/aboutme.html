@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>繁嵐(Fanlan) - About Me</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
     <!-- micro Animate css -->
     <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
@@ -14,6 +13,7 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <!-- Custom css -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
         body {
@@ -27,44 +27,60 @@
         }
     </style>
     
-    <meta name="author" content="繁嵐(Fanlan1210)" />
-    <meta name="description" content="我是繁嵐，一位熱愛電資的高中生。" />
-    <meta property="og:title" content="繁嵐(Fanlan) - About Me" />
-    <meta property="og:description" content="我是繁嵐，一位熱愛電資的高中生。"/>
-    <meta property="og:type" content="article"/>
+    <meta name="author" content="繁嵐 (Fanlan1210)" />
+    <meta name="description" content="我是繁嵐，一位期望資訊科技能夠用以輔助社會的大學生。" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.fanlan.net/aboutme">
+    <meta property="og:title" content="繁嵐 (Fanlan) - 關於我" />
+    <meta property="og:description" content="我是繁嵐，一位期望資訊科技能夠用以輔助社會的大學生。"/>
+    <meta property="og:type" content="profile"/>
     <meta property="og:image" content="avatar.jpg"/>
+    <link rel="canonical" href="https://www.fanlan.net/aboutme" />
 </head>
 <body>
-    <div class="valign-wrapper" style="width:100%;height:100%;position: absolute;">
-        <div class="valign" style="width:100%;">
-            <div class="container animated fadeInUp slow">
-                <div class="row">
-                    <div class="col s12 m6 l10 offset-m3 offset-l1">
-                        <div class="card grey lighten-5 z-depth-2">
-                            <div class="card-content center">
-                                <h5 class="left-align">中二中電研百九級(24屆)</h5>
-                                <h5 class="left-align">活動\網管\教學</h5>
-                                <img src="avatar.jpg" class="circle responsive-img" alt="我的大頭貼">
-                                <h4>張智仁<br><small>(繁嵐)</small></h4>
-                                <div class="divider"></div>
-                                <a href="https://github.com/fanlan1210" class="btn-floating btn-large black" target="_blank"><i class="fab fa-github"></i>Github</a>
-                                <a href="https://gitlab.com/fanlan1210" class="btn-floating btn-large deep-orange" target="_blank"><i class="fab fa-gitlab"></i>Gitlab</a>
-                                <a href="../" class="btn-floating btn-large light-green" target="_blank"><i class="fas fa-globe"></i>Website</a>
-                                <a href="../blog" class="btn-floating btn-large green" target="_blank"><i class="fas fa-edit"></i>Blog</a>
-                                <a href="https://fb.me/zeiren.zhang" class="btn-floating btn-large blue" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
-                                <a href="https://m.me/zeiren.zhang" class="btn-floating btn-large light-blue" target="_blank"><i class="fab fa-facebook-messenger"></i>Messenger</a>
-                                <a href="https://www.instagram.com/fanlan1210/" class="btn-floating btn-large pink" target="_blank"><i class="fab fa-instagram"></i>instagram</a>
-                                <a href="https://www.youtube.com/channel/UC4Uqrj-TUaCVukSDkEb5ZFQ" class="btn-floating btn-large red" target="_blank"><i class="fab fa-youtube"></i>Youtube</a>
-                            </div>
-                        </div>
+    <div class="flex flex-col justify-center min-h-screen bg-gradient-to-l from-green-300 to-lime-300 p-16 ">
+        <div class="bg-white p-8 rounded-lg lg:w-4/5 xl:w-3/5 mx-auto">
+            <div class="flex flex-row flex-wrap items-center">
+                <div class="p-4 md:basis-1/3"><img src="avatar.jpg" class="rounded-full" alt="我的大頭貼"></div>
+                <div class="md:basis-2/3">
+                    <h2 class="text-3xl md:text-4xl">張智仁
+                        <span class="px-1"><small>(繁嵐)</small></span>
+                    </h2>
+                    <hr class="my-4 w-full border-gray-500 border-1">
+                    <div class="flex space-x-1 justify-between">
+                        <h3>Web Developer</h3>
+                        <p>·</p>
+                        <h3>元智大學學生會 - 資訊顧問</h3>
+                        <p>·</p>
+                        <h3>銘傳大學開源社 - 社長</h3>
                     </div>
                 </div>
+                
             </div>
+            <div class="card-content center">
+                
+                
+                
+
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 w-full pl-16 justify-between">
+                <a href="https://github.com/fanlan1210" class="hover:text-gray-900" target="_blank"><i class="fab fa-github">&nbsp;GitHub</i></a>
+                <a href="https://gitlab.com/fanlan1210" class="hover:text-gray-900" target="_blank"><i class="fab fa-gitlab"></i>&nbsp;Gitlab</a>
+                <a href="/" class="hover:text-gray-900" target="_blank"><i class="fas fa-globe"></i>&nbsp;Website</a>
+                <a href="https://blog.fanlan.net" class="hover:text-gray-900" target="_blank"><i class="fas fa-edit"></i>&nbsp;Blog</a>
+                <a href="https://fb.me/zeiren.zhang" class="hover:text-gray-900" target="_blank"><i class="fab fa-facebook"></i>&nbsp;Facebook</a>
+                <a href="https://m.me/zeiren.zhang" class="hover:text-gray-900" target="_blank"><i class="fab fa-facebook-messenger"></i>&nbsp;Messenger</a>
+                <a href="https://www.instagram.com/fanlan1210/" class="hover:text-gray-900" target="_blank"><i class="fab fa-instagram"></i>&nbsp;instagram</a>
+                <a href="https://www.youtube.com/channel/UC4Uqrj-TUaCVukSDkEb5ZFQ" class="hover:text-gray-900" target="_blank"><i class="fab fa-youtube"></i>&nbsp;Youtube</a>
+                <a href="mailto:contact@fanlan.net" class="hover:text-gray-900"><i class="far fa-envelope"></i>&nbsp;Email</a>
+                <a href="https://fanlan1210.t.me" class="hover:text-gray-900"><i class="fab fa-telegram"></i>&nbsp;Telegram</a>
+            </div>
+                
+            </div>
+            
         </div>
     </div>
  
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 </html>
