@@ -38,7 +38,6 @@ const StyledContactSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin: 30px 10px;
-    letter-spacing: 0.5em;
   }
 
   .button-link {
@@ -68,7 +67,7 @@ const Contact = () => {
       <p>如果上面的內容不足以滿足你的好奇心，或是有其他想知道的部分，歡迎來信給我！</p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        發信
+        發&nbsp;信
       </a>
 
       <p>或是去造訪我的好朋友們的網站：</p>
@@ -97,6 +96,8 @@ const Contact = () => {
         rel="noreferrer noopener">
         方塊酥曜維
       </a>
+
+      <p>也歡迎提交 issue 或 PR 新增！</p>
     </StyledContactSection>
   );
 };

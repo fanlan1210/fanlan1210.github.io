@@ -158,6 +158,12 @@ const mixins = {
         left: 0;
         color: var(--turquoise);
       }
+      ul li:before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        color: var(--turquoise);
+      }
     }
   `,
 

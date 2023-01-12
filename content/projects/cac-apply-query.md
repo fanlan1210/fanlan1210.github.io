@@ -5,7 +5,7 @@ github: 'https://github.com/fanlan1210/cac-apply-query'
 tech:
   - Selenium
   - Python
-showInProjects: true
+showInProjects: false
 ---
 
 透過准考證號碼名單批次查詢並抓取在 http://www.com.tw 上的放榜資料。
