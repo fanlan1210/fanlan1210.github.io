@@ -66,6 +66,7 @@ const SocialRedirectPage = ({ location }) => {
 
 SocialRedirectPage.propTypes = {
   location: PropTypes.object.isRequired,
+  prefersReducedMotion: true,
 };
 
 export default SocialRedirectPage;
