@@ -147,12 +147,12 @@ module.exports = {
         trackingId: '',
       },
     },*/
-    /*{
+    {
       resolve: `gatsby-plugin-cloudflare-web-analytics`,
       options: {
         // You need to provide your site token. You get this from the Cloudflare dashboard
         token: 'b931b1776dd74563902faa54f663cedd',
-         // You can add or overwrite attributes of the analytics script tag (optional)
+        // You can add or overwrite attributes of the analytics script tag (optional)
         // attributes: [
         //   {
         //     name: ATTRIBUTE_NAME,
@@ -160,6 +160,6 @@ module.exports = {
         //   }
         // ],
       },
-    },*/
+    },
   ],
 };
