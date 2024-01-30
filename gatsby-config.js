@@ -6,7 +6,7 @@ module.exports = {
     description: '你好，我是繁嵐，一個目前就讀資工系的大學生。',
     siteUrl: 'https://www.fanlan.net', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@',
+    twitterUsername: '@fanlan1210',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -145,6 +145,20 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: '',
+      },
+    },*/
+    /*{
+      resolve: `gatsby-plugin-cloudflare-web-analytics`,
+      options: {
+        // You need to provide your site token. You get this from the Cloudflare dashboard
+        token: 'b931b1776dd74563902faa54f663cedd',
+         // You can add or overwrite attributes of the analytics script tag (optional)
+        // attributes: [
+        //   {
+        //     name: ATTRIBUTE_NAME,
+        //     value: ATTRIBUTE_VALUE,
+        //   }
+        // ],
       },
     },*/
   ],
