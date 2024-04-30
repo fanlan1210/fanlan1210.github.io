@@ -81,12 +81,12 @@ const Contact = () => {
       </a>
       <a
         className="button-link"
-        href="https://web.cc.ncu.edu.tw/~109502533/"
+        href="https://pudding0803.github.io"
         target="_blank"
         rel="noreferrer noopener">
         布丁
       </a>
-      <a className="button-link" href="https://ncchen.ga" target="_blank" rel="noreferrer noopener">
+      <a className="button-link" href="https://ncchen99.github.io/" target="_blank" rel="noreferrer noopener">
         念誠
       </a>
       <a
