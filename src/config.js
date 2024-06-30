@@ -14,22 +14,22 @@ module.exports = {
       name: 'Card',
       url: '/aboutme.html',
     },
-    /*{
-      name: 'Instagram',
-      url: 'https://www.instagram.com/#',
-    },
+    // {
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/#',
+    // },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/#',
+      url: 'https://twitter.com/fanlan1210',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/#',
+      url: 'https://www.linkedin.com/in/fanlan-zhang/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/#',
-    },*/
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/#',
+    // },
   ],
 
   navLinks: [

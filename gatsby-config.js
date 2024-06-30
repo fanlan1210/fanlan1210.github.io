@@ -3,7 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: '繁嵐（Fanlan）',
-    description: '你好，我是繁嵐，一個目前就讀資工系的大學生。',
+    description: '你好，我是繁嵐，一個目前就讀資工系的開發者。',
     siteUrl: 'https://www.fanlan.net', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@fanlan1210',
