@@ -61,7 +61,7 @@ const Header = () => {
 
   const one = <h1>安安你好，我是</h1>;
   const two = <h2 className="big-heading">繁嵐，</h2>;
-  const three = <h3 className="big-heading">一個目前就讀資工系的大學生。</h3>;
+  const three = <h3 className="big-heading">一位參與公民科技與社會行動的開發者。</h3>;
   const four = (
     <>
       <p>
