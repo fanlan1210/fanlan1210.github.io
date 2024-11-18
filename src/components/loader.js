@@ -46,7 +46,7 @@ const Loader = ({ finishLoading }) => {
 
     loader
       .add({
-        targets: '#logo circle',
+        targets: '#logo path',
         delay: anime.stagger(250, { easing: 'easeInOutQuart' }),
         opacity: [0, 1],
       })
