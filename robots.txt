@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.fanlan.net/sitemap-index.xml
+Host: https://www.fanlan.net
